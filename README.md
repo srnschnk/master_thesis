@@ -1,5 +1,5 @@
 # Health Outcome Prediction Using Transformer Models
-The data for running the code has been retreived from the MIMIC-IV dataset. For steps how to download the MIMIC-IV dataset, go to: https://physionet.org/content/mimiciv/1.0/
+To run the code in this repository, the MIMIC-IV dataset must be downloaded from [PhysioNet](https://physionet.org/content/mimiciv/1.0/). Additionally, preprocessing is required using the pipeline provided by Gupta et al. (2022), available at [MIMIC-IV Data Pipeline](https://github.com/healthylaife/MIMIC-IV-Data-Pipeline?tab=readme-ov-file). The parameters used to execute the pipeline have been hardcoded into the 'PreprocessingPipeline.ipynb' file within this repository.
 
 # Repository Structure
 
