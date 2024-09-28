@@ -1,10 +1,10 @@
 # Health Outcome Prediction Using Transformer Models
-To run the code in this repository, the MIMIC-IV dataset must be downloaded from [PhysioNet](https://physionet.org/content/mimiciv/1.0/). Additionally, preprocessing is required using the pipeline provided by Gupta et al. (2022), available at [MIMIC-IV Data Pipeline](https://github.com/healthylaife/MIMIC-IV-Data-Pipeline?tab=readme-ov-file). The parameters used to execute the pipeline have been hardcoded into the 'PreprocessingPipeline.ipynb' file within this repository.
+To run the code in this repository, the MIMIC-IV dataset hast to be downloaded from [PhysioNet](https://physionet.org/content/mimiciv/1.0/). Additionally, preprocessing is required using the pipeline provided by Gupta et al. (2022), available at [MIMIC-IV Data Pipeline](https://github.com/healthylaife/MIMIC-IV-Data-Pipeline?tab=readme-ov-file). The parameters used to execute the pipeline have been hardcoded into the 'PreprocessingPipeline.ipynb' file within this repository.
 
 # Repository Structure
 
 ### Preprocessing Pipeline
-- **PreprocessingPipeline.ipynb** - Contains the Preprocessing Pipeline of https://github.com/healthylaife/MIMIC-IV-Data-Pipeline?tab=readme-ov-file - The Pipeline has been modfified to group small ethnicity groups together
+- **PreprocessingPipeline.ipynb** - Contains the Preprocessing Pipeline Jupyter Notebook. Additionally grouping of minority groups has been added
 - **mimic4_preprocess_util.py** - Supplementary file of the Preprocessing Pipeline
 - **preprocess_outcomes.py** - Supplementary file of the Preprocessing Pipeline
 - utils - Supplementary file of the Preprocessing Pipeline
